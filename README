@@ -1,0 +1,59 @@
+ICal version 0.01
+Copyright (c) 1999, Eric Busboom
+
+------------------------------------------------------------------------
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the Artistic License, a copy of which can be
+    found with perl.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    Artistic License for more details.
+------------------------------------------------------------------------
+
+This ICal module is a perl binding to libical, a C language
+implemention of the iCalendar calendaring and scheduling
+protocols. The iCalendar data units and protocols permit users to
+store and retrieve calendar data on remote servers and to schedule
+events with other calendar users. The protocols are specified in
+RFC 2445, RFC 2446 , RFC 2447 and two IETF drafts. For more
+information, see the working group's web page at:
+
+	http://www.imc.org/ietf-calendar/
+
+This code is under active development. If you would like to contribute
+to the project, you can contact me, Eric Busboom, at
+eric@softwarestudio.org. The project has a webpage at
+
+	http://softwarestudio.org/libical/index.html 
+
+and a mailing list that you can join by sending the following mail:
+
+	------------
+	To: minimalist@softwarestudio.org
+	Subject: subscribe libical
+	------------
+
+REQUIREMENTS
+
+1) libical
+2) SWIG
+
+INSTALLATION
+
+First, you will need to install libical. You can get this from
+http://softwarestudio.org/libical/index.html.
+
+Next, edit the Makefile.PL to refer to the lib and include directories
+where you installed libical.
+
+Finally, make the perl distribution as normal.
+
+USE
+
+This release is an early alpha and is really only useful to the
+hard-core calendar hacker. You should be familar with libical, and you
+will have to rely on the code in the test directory for documentation.
+
+
